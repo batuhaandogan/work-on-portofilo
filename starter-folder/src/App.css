@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+.another-class {
+  background-color: #e3f2fd;
+}
