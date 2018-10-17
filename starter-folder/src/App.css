@@ -130,3 +130,76 @@ a {
 
 }
 
+
+
+.about-me-page {
+  background-image: url('./images/apple-black-and-white-black-and-white-169573.jpg');
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.about-me-page > h1 {
+color: mintcream;
+float: right;
+padding-top: 100px;
+padding-right: 50px;
+font-size: 60px;
+/* font-family: monospace; */
+height: 50px;
+margin: 10px;
+margin-left: 100px;
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 1.5rem;
+/* background-color: black; */
+ 
+}
+
+#different-one {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  /* font-size: 28px; */
+ position: absolute;
+ margin-top: 120px;
+ padding-left: 880px;
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ font-size: 1.0rem;
+ 
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 3px 3px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.not-container {
+  padding-left: 700px;
+  padding-top: 700px;
+  height: 100vh;
+;
+
+}
+
+#full {
+  height: 100vh;
+  background-color: #256347;
+}
+
