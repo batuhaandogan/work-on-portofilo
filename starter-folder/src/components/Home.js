@@ -14,20 +14,7 @@ class Home extends Component {
 
 
        
-<navbar className="the-navbar-class">
-<ul className="main-nav">
-  <li >
-  <a href="/">Home</a>
-  </li>
-  <li >
 
-    <Link href="/About">About</Link>
-  </li>
-  <li >
-    <a href="/">Contact</a>
-  </li>
-</ul>
-</navbar>
 
 
 

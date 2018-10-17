@@ -9,7 +9,9 @@ class About extends Component {
       <div>
 
 
-<p>Welcome to the About page, This is who I am.</p>
+     <div>
+       
+     </div>
 
 
 

@@ -1,13 +1,30 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from './App';
+// import * as serviceWorker from './serviceWorker';
+// import { Link } from 'react-router-dom';
+// import { Switch, Route, BrowserRouter } from 'react-router-dom';
+
+
+// ReactDOM.render(
+// <BrowserRouter>
+// <App />
+// </BrowserRouter> 
+// , document.getElementById('root'));
+// serviceWorker.unregister();
+
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-// import Bootstrap from "bootstrap/dist/css/bootstrap.css"
-// import { Link } from 'react-router-dom';
-// import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
-
+ReactDOM.render((
+<Router>
+    <App />
+</Router>
+), document.getElementById('root'));
+// registerServiceWorker();
