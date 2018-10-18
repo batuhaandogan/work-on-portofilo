@@ -143,7 +143,8 @@ a {
 
 
 .about-me-page {
-  background-image: url('./images/apple-black-and-white-black-and-white-169573.jpg');
+  /* background-image: url('./images/apple-black-and-white-black-and-white-169573.jpg'); */
+  background-color: black;
   background-size: cover;
   height: 100vh;
 
@@ -241,4 +242,45 @@ video {
   position: absolute;
   top: 200px;
   left: 675px;
+}
+
+
+.creating-background-div {
+  background-color: rgba(243, 240, 52, 0.2);
+  height: 20vh;
+  width: 29vw;
+  position: absolute;
+  top: 110px;
+  left: 979px;
+}
+
+
+.the-cool-div {
+padding-top: 200px;
+}
+
+.the-cool-div h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.0rem;
+  color:  rgba(243, 240, 52, 0.6);
+}
+
+.the-cool-div h2 {
+  padding-top: 100px;
+  padding-left: 200px;
+  text-transform: uppercase;
+ letter-spacing: 30px;
+ font-size: 5.0rem;
+ color:  rgba(243, 240, 52, 0.6);
+ font-family: 'Advent Pro', sans-serif;
+}
+
+.the-cool-div p {
+  color:  rgba(243, 240, 52);
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  font-size: 2.0rem;
+padding-left: 100px;;
 }
