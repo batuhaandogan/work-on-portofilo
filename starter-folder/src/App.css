@@ -39,7 +39,7 @@ body {
   margin-right: 30px;
   width: 25%;
   text-align: center;
-  background: rgba(175, 218, 143, 0.3);;
+  /* background: rgba(175, 218, 143, 0.3);; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ body {
 
 .main-nav li:hover {
   color: white;
-  background: blue;
+  background: dimgray;
 }
 
 .nav-item {
@@ -69,12 +69,13 @@ body {
 
 .main-image-first {
   position: relative;
-  background-image: url('./images/abstract-access.jpg');
+  background-image: url('./images/arrows-background-black-and-white-745365.jpg');
   background-size: cover;
   height: 100vh;
   width: 100vw;
   opacity: 0.9;
   z-index: 1;
+
   /* animation-duration: 2.5s; */
   /* animation-iteration-count: infinite; */
 }
@@ -94,6 +95,10 @@ a {
   justify-content: center;
   padding-top: 200px;
   font-family: 'Times New Roman', Times, serif;
+ float: right;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ font-size: 1.9rem;
 
 }
 
@@ -102,7 +107,12 @@ a {
   font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-left: 600px;
+  float: right;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.0rem;
 }
+
 
 
 .the-resume-class {
@@ -194,12 +204,41 @@ font-size: 1.5rem;
   padding-left: 700px;
   padding-top: 700px;
   height: 100vh;
+  position: absolute;
+  
 ;
 
 }
 
-#full {
+
+
+
+.second-home-class {
   height: 100vh;
   background-color: #256347;
+
 }
 
+
+.full-video-background {
+  height: 100vh;
+}
+
+
+video {
+  height: 100vh;
+  width: 100vw;
+} 
+
+
+
+
+.make-cool-textarea {
+  background-color: black;
+  height: 20vh;
+  width: 53vw;
+ /* margin-left: 100px; */
+  position: absolute;
+  top: 200px;
+  left: 675px;
+}

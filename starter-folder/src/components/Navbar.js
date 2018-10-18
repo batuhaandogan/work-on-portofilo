@@ -13,6 +13,7 @@ class Navbar extends Component {
  
 <navbar className="the-navbar-class">
 <ul className="main-nav">
+ 
   <li >
   <Link to="/Home">Home</Link>
   </li>
