@@ -75,7 +75,6 @@ body {
   width: 100vw;
   opacity: 0.9;
   z-index: 1;
-
   /* animation-duration: 2.5s; */
   /* animation-iteration-count: infinite; */
 }
@@ -263,24 +262,52 @@ padding-top: 200px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.0rem;
-  color:  rgba(243, 240, 52, 0.6);
+  color:  rgba(52, 243, 93, 0.486);
+  position: absolute;
+  padding-left: 100px;
+  text-transform: uppercase;
+ letter-spacing: 30px;
+ font-size: 4.0rem;
 }
 
 .the-cool-div h2 {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-left: 200px;
   text-transform: uppercase;
  letter-spacing: 30px;
  font-size: 5.0rem;
- color:  rgba(243, 240, 52, 0.6);
+ color:  rgba(52, 214, 243, 0.6);
  font-family: 'Advent Pro', sans-serif;
+ padding-top: 90px;
 }
 
 .the-cool-div p {
-  color:  rgba(243, 240, 52);
-  font-family: 'Advent Pro', sans-serif;
+  color:  rgb(243, 240, 52);
+  /* font-family: 'Advent Pro', sans-serif; */
+  font-family: 'Cinzel', serif;
   text-transform: uppercase;
   letter-spacing: 30px;
-  font-size: 2.0rem;
-padding-left: 100px;;
+  font-size: 6.0rem;
+  padding-left: 200px;
+  position: absolute;
+
+}
+
+
+
+.back-background {
+  position: absolute;
+  background-color: rgba(255, 242, 242, 0.3);
+  height: 50vh;
+  width: 90vw;
+  bottom: 200px;
+  left: 100px;
+}
+
+
+.cool1 {
+  position: absolute;
+  height: 10vh;
+  width: 10vw;
+  background-color: black;
 }

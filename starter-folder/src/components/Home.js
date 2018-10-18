@@ -14,9 +14,7 @@ class Home extends Component {
     return (
      
       <div>
-<header>
 
-</header>
   <div className="main-image-first">
   <p className="animated bounceInDown" id="the-p-tag">The significant problems<br/> we face cannot be solved by the same<br/> level of thinking that created them</p>
  <p className="animated bounceInDown" id="the-second-p-tag">Turn your ideas into reality</p>
@@ -31,7 +29,7 @@ class Home extends Component {
 
 <div className="second-home-class"> 
 <div className="make-cool-textarea">
-
+<div className="cool-1"></div>
 </div>
 
 </div>

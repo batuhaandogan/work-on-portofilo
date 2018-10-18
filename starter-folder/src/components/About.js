@@ -37,6 +37,8 @@ class About extends Component {
   <h2>Because it's my passion.</h2>
 </div>
 
+<div className="back-background"></div>
+
      </div>
 
 

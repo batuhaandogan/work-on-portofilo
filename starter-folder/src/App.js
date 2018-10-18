@@ -12,9 +12,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 class App extends Component {
   
   render() {
-    return (
-      
-    
+    return (      
       <div>
           <head>
                <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
