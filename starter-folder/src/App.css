@@ -143,7 +143,7 @@ a {
 
 .about-me-page {
   /* background-image: url('./images/apple-black-and-white-black-and-white-169573.jpg'); */
-  background-color: black;
+  background-color: rgb(97, 202, 27);
   background-size: cover;
   height: 100vh;
 
@@ -262,7 +262,7 @@ padding-top: 200px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.0rem;
-  color:  rgba(52, 243, 93, 0.486);
+  color:  rgba(184, 83, 83, 0.486);
   position: absolute;
   padding-left: 100px;
   text-transform: uppercase;
