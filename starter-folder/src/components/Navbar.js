@@ -15,7 +15,7 @@ class Navbar extends Component {
 <ul className="main-nav">
  
   <li >
-  <Link to="/Home">Home</Link>
+  <Link to="/">Home</Link>
   </li>
   <li >
 

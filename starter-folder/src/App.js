@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import About from './components/About';
 import Navbar from './components/Navbar'
-import { Link } from 'react-router-dom';
+import Main from './components/main';
+import {Switch , Route} from 'react-router-dom';
 import Home from './components/Home';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import About from './components/About';
+
 
 
 
@@ -19,24 +20,14 @@ class App extends Component {
           </head>
 
 <Navbar />
+{/* <Main /> */}
 
 
          <Switch>
-          <Route exact path='/home' component={Home}/>
-          <Route path='/about' component={About}/>
+
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/about' component={About}/>
         </Switch>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
