@@ -92,17 +92,23 @@ a {
   font-size: 50px;
   display: flex;
   justify-content: center;
-  padding-top: 200px;
-  font-family: 'Times New Roman', Times, serif;
+  /* padding-top: 200px; */
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Raleway', sans-serif;
  float: right;
  text-transform: uppercase;
  letter-spacing: 3px;
  font-size: 1.9rem;
+ position: absolute;
+ bottom: 500px;
+ left: 400px;
+ background-color: black;
+ opacity: 0.5;
 
 }
 
 #the-second-p-tag {
-  color: white;
+  color: black;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-left: 600px;
@@ -110,6 +116,10 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.0rem;
+  position: absolute;
+  bottom: 450px;
+  /* background-color: black; */
+
 }
 
 
@@ -316,5 +326,23 @@ padding-top: 200px;
 
 .videoTag {
   height: 100vh;
-  opacity: 10px;
+  opacity: 0.5;
+}
+
+
+.add-opacity {
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+}
+
+
+
+#my-name {
+  position: absolute;
+  color: black;
+bottom: -20px;
+  /* left: 550px; */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
 }

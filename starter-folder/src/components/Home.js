@@ -20,28 +20,30 @@ class Home extends Component {
 
   <div >
   <video className='videoTag' autoPlay loop muted>
+      {/* <div className="add-opacity">asdasda</div> */}
     <source src={Sample} type='video/mp4'/>
-</video>
-  <p className="animated bounceInDown" id="the-p-tag">The significant problems<br/> we face cannot be solved by the same<br/> level of thinking that created them</p>
- <p className="animated bounceInDown" id="the-second-p-tag">Turn your ideas into reality</p>
- <span class="animated bounce"></span>  
-
-{/* <video src="../Code_flythough.mov" autoPlay="true" loop="true"></video> */}
+      </video>
 
 
-</div>
+      <div className="add-background-opacity">
+         <p className="animated bounce" id="the-p-tag">The significant problems<br/> we face cannot be solved by the same<br/> level of thinking that created them</p>
+         <p className="animated bounceInDown" id="the-second-p-tag">Turn your ideas into reality</p>
+         {/* <p id="my-name">Tony Batuhan Dogan / Software Developer</p> */}
+         <span class="animated bounce"></span>  
+      </div>
+
+
+ </div> 
 
 
 
-<div className="second-home-class"> 
+ {/* <div className="second-home-class"> 
 <div className="make-cool-textarea">
 <div className="cool-1"></div>
 </div>
+</div>  */}
 
-</div>
-
-
-</div>
+ </div>
 
     );
   }
