@@ -7,21 +7,21 @@ import '../App.css';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div >
 <header>
 
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100" rel="stylesheet" />
 </header>
 
-    <div className="for-personal-image">
-    <div className="for-the-opacity"></div>
-        <div className="my-image">
-        </div>
-      <h1>Tony Batuhan Dogan</h1>
-        </div>
+{/* <div className="all-background">
 
-<div className="for-summary">
-      
+
+</div> */}
+<div className="main-background-image">
+<div className="circle-image">
+<h1>Tony Batuhan Dogan</h1>
+<p>Software Developer</p>
+</div>
 </div>
 
 
