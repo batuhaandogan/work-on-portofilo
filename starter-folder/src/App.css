@@ -416,16 +416,17 @@ font-size: 26px;
 font-family: 'Titillium Web', sans-serif;
  margin-left: 20px;
  color: white;
- background-color: black;
+ background-color: turquoise;
   
 }
 
 .circle-image p {
  font-size: 20px;
  font-family: 'Titillium Web', sans-serif;
-  margin-left: 60px;
+  margin-left: 20px;
   color: white;
-  background-color: black;
+  background-color: turquoise;
+  padding-left: 50px;
 }
 
 
@@ -436,4 +437,49 @@ font-family: 'Titillium Web', sans-serif;
 background-position-y: -300px;
 opacity: 0.8;
 
+}
+
+#h1-tag {
+ text-align: center;
+ font-family: 'Nunito Sans', sans-serif;
+ color: rgb(49, 77, 13);
+ /* background-color: turquoise; */
+
+}
+
+
+.social-links > a {
+  background: #f9f9fb;
+  border-radius: 100%;
+  color: #535358;
+  display: inline-block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 40px;
+  margin: 10px;
+  margin-right: 50px;
+
+}
+
+
+.the-icon {
+ font-size: 22px;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.social-links > a:hover {
+  background-color:rgba(13, 129, 224, 0.9);
+  box-shadow: 0 0 1px 11px rgba(0, 109, 210, 0.15), 0 0 1px 22px rgba(13, 129, 224, 0.1);
 }
